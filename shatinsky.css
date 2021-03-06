@@ -1,0 +1,96 @@
+.flex-parent {
+  display: flex;
+  align-content: center;
+  padding-top: 40px;
+}
+
+.card {
+  width: 270px;
+  height: 380px;
+  background: #FFFFFF;
+  border: 1px solid #E1E2E3;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.154693);
+  border-radius: 3px;
+  margin: auto;
+}
+
+.thumbnail {
+  max-width: 269px;
+  max-height: 208px;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.accent {
+  background-color: #F55423;
+  position: absolute;
+  width: 269px;
+  height: 3px;
+}
+
+.text-container {
+  padding-left: 25px;
+  padding-top: 21px;
+  padding-right: 29px;
+}
+
+.date {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.5px;
+  color: #9B9B9B;
+  margin: 0px;
+  font-weight: 700;
+}
+
+.headline {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.blurb {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #4A4A4A;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.flex-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 103px;
+  flex-wrap: wrap;
+}
+
+.link {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
+  color: #F55423;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.material-icons {
+  width: 7.35px;
+  height: 7.35px;
+  color: #F55423;
+  font-weight: 700 !important;
+  font-size: 10px !important;
+  line-height: 0.7 !important;
+}
+
+/*# sourceMappingURL=shatinsky.css.map */
